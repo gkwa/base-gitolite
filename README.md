@@ -12,15 +12,15 @@ Este repositorio alberga un *contenedor Docker* para montar un Servidor GIT priv
 
 Para usar la imagen desde el registry de docker hub
 
-~ $ docker pull luispa/base-gitolite
+    ~ $ docker pull luispa/base-gitolite
 
 
 ## Clonar el repositorio
 
 Este es el comando a ejecutar para clonar el repositorio desde GitHub y poder trabajar con él directametne
 
-~ $ clone https://github.com/LuisPalacios/docker-gitolite.git
+    ~ $ clone https://github.com/LuisPalacios/docker-gitolite.git
 
 Luego puedes crear la imagen localmente con el siguiente comando
 
-$ docker build -t luispa/base-gitolite ./
+    $ docker build -t luispa/base-gitolite ./
