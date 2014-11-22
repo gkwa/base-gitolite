@@ -71,21 +71,3 @@ RUN sed -i '/session    required     pam_loginuid.so/d' /etc/pam.d/sshd
 ADD ./init.sh /init.sh
 RUN chmod +x /init.sh
 
-# Creo punto de montaje y marca que tendrá volumenes montados de forma externa
-# en este caso del host.
-#
-#VOLUME ["/home/git/repositories"]
-
-# Comando a ejecutar
-#
-#CMD ["/init.sh", "/usr/sbin/sshd", "-D"]
-
-# Para el futuro cuando configure mirrors... necesito exponer a otros
-# contenedores el puerto por el que estoy escuchando con sshd
-# De momento no lo uso
-#EXPOSE 22
-
-#
-# -------------------------------------------------------------------------------------------
-#
-
