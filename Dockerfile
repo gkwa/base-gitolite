@@ -6,7 +6,7 @@
 
 # Desde donde parto...
 #
-FROM debian:latest
+FROM debian:jessie
 
 # Basado en la idea original de: https://registry.hub.docker.com/u/elsdoerfer/gitolite/
 #

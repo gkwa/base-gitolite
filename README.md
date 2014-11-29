@@ -2,6 +2,9 @@
 
 Este repositorio alberga un *contenedor Docker* para montar un Servidor GIT privado usando "gitolite", está automatizado en el Registry Hub de Docker [luispa/base-gitolite](https://registry.hub.docker.com/u/luispa/base-gitolite/) conectado con el el proyecto en [GitHub base-gitolite](https://github.com/LuisPalacios/base-gitolite)
 
+Debian 8.0 Jessie (64-bit)
+Debian 7.5 Wheezy (64-bit)
+
 
 ## Ficheros
 
