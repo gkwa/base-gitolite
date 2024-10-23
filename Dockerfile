@@ -6,7 +6,7 @@
 
 # Desde donde parto...
 #
-FROM debian:jessie
+FROM debian:bookworm
 
 # Basado en la idea original de: https://registry.hub.docker.com/u/elsdoerfer/gitolite/
 #
