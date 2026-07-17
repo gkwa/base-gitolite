@@ -6,7 +6,7 @@
 
 # Desde donde parto...
 #
-FROM debian:trixie-20260623
+FROM debian:13
 
 # Basado en la idea original de: https://registry.hub.docker.com/u/elsdoerfer/gitolite/
 #
